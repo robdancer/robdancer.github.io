@@ -5,6 +5,6 @@
 layout: default
 ---
 
-# Robert Dancer home page
+# Robert Dancer
 
 ## version 2
