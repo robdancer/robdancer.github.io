@@ -52,8 +52,3 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
-
-sass:
-$header-heading-color: #fff
-$header-bg-color: #255e5c
-$header-bg-color-secondary: #155799
