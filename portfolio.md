@@ -4,23 +4,10 @@ title: Portfolio
 permalink: /portfolio/
 ---
 
-A selection of my previous work t6
+A selection of my previous work
 
-<ul>
-  {% for post in site.categories.portfolio %}
-    <li>
-      <a href="{{ post.url }}">{{ post.title }}</a>
-    </li>
-  {% endfor %}
-</ul>
-
-Test
-
-{% for tag in site.categories %}
-  <h3>{{ tag[0] }}</h3>
-  <ul>
-    {% for post in tag[1] %}
-      <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
-  </ul>
+{% for post in site.categories.portfolio %}
+  <div class="portfolio-entry">
+  <a href="{{ post.url }}">{{ post.title }}</a>
+  </div>
 {% endfor %}
