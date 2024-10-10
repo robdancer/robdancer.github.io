@@ -7,7 +7,7 @@ permalink: /portfolio/
 A selection of my previous work t6
 
 <ul>
-  {% for post in site.categories["portfolio"][1] %}
+  {% for post in site.categories.portfolio %}
     <li>
       <a href="{{ post.url }}">{{ post.title }}</a>
     </li>
