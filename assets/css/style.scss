@@ -31,4 +31,10 @@ $hr-border-color: #eff0f1 !default;
     border-radius: 16px;
 }
 
+.project-tag {
+    padding: 4px;
+    background-color: #00ff374f;
+    border-radius: 4px;
+}
+
 @import "{{ site.theme }}";

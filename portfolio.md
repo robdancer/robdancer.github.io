@@ -10,7 +10,7 @@ A selection of my previous work
   <div class="portfolio-entry">
   <a href="{{ post.url }}">{{ post.title }}</a>
     {% for tag in post.tags %}
-    <p> {{ tag }} </p>
+    <span class='project-tag'> {{ tag }} </span>
   {% endfor %}
   </div>
 {% endfor %}
