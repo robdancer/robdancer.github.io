@@ -1,8 +1,7 @@
 ---
 layout: default
-title:  "PySR Graph Extension"
-date:   2024-10-10 19:29:00 +0000
-categories: test2
+title:  "Welcome to Jekyll!"
+date:   2024-06-22 02:36:51 +0100
+categories: t4
 ---
-
-PySR Graph Caching t3
+t4
