@@ -26,9 +26,9 @@ $table-border-color: #e9ebec !default;
 $hr-border-color: #eff0f1 !default;
 
 .portfolio-entry {
-    color: purple;
     padding: 16px;
-    background-color: orange;
+    background-color: #0bdaff85;
+    border-radius: 4px;
 }
 
 @import "{{ site.theme }}";
