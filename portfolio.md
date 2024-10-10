@@ -4,7 +4,7 @@ title: Portfolio
 permalink: /portfolio/
 ---
 
-A selection of my previous work t1
+A selection of my previous work t3
 
 <ul>
   {% for post in site.categories["portfolio"][1] %}
