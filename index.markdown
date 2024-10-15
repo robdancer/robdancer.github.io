@@ -5,4 +5,4 @@ title: "Robert Dancer"
 layout: default
 ---
 
-<a href="/cv.pdf">CV</a> 
+# <a href="/cv.pdf">CV</a> 
